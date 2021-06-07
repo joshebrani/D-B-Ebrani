@@ -5,3 +5,21 @@
 .center {
    text-align: center;
 }
+
+#header {
+    text-align: center;
+    padding: 35px;
+
+}
+
+.title {
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+
+body {
+    background-color: aliceblue;
+}
