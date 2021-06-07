@@ -23,3 +23,24 @@
 body {
     background-color: aliceblue;
 }
+
+	.myul {
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    background: #5d5d5d;
+    padding: 10px;
+    border-radius: 5px;
+	}
+
+.myul li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.myul li a:hover {
+    color: #18bfef;
+}

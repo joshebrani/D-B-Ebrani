@@ -3222,6 +3222,14 @@ input, select, textarea {
     border-radius: 10px;
 	}
 
+	.myul {
+	padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+	}
+
 /* Wrapper */
 
 	#wrapper {
