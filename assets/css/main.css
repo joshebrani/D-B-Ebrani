@@ -3220,12 +3220,21 @@ input, select, textarea {
 	background: lightgrey;
     border: 1px solid black;
     border-radius: 10px;
+	width: 350px;
 	}
 
 	.myul {
 	padding-left: 1rem;
     display: flex;
     justify-content: space-between;
+    list-style: none;
+    width: 100%;
+	}
+
+	.myul-small {
+	padding-left: 1rem;
+    /* display: flex;
+    justify-content: space-between; */
     list-style: none;
     width: 100%;
 	}
