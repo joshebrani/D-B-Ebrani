@@ -9,6 +9,7 @@
 		<title>DB Ebrani</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
@@ -27,7 +28,7 @@
 						<!-- <h1>D & B<br />
 						Ebrani</h1> -->
 						<br>
-						<p>Where quality trumps quantity</p>
+						<p>Providing the best quality diamonds to the best quality customers.</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -40,7 +41,7 @@
 
 				<!-- Nav -->
 					<nav id="nav">
-						<ul class='myul'>
+						<ul class='testing'>
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="all_cuts.html">All Cuts</a></li>
 							<li><a href="gia.html">GIA Certified</a></li>
@@ -303,6 +304,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+		<script>
+
+			$(document).ready(function() {
+				if (window.innerWidth < 975) {
+				$('.testing').addClass('myul-small')
+				}
+				if (window.innerWidth >= 975) {
+				$('.testing').addClass('myul')
+				}
+			})
+		</script>
 
 	</body>
 </html>
