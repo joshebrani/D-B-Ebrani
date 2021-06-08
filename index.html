@@ -41,7 +41,7 @@
 
 				<!-- Nav -->
 					<nav id="nav">
-						<ul class='testing'>
+						<ul>
 							<li class="active"><a href="index.html">Home</a></li>
 							<li><a href="all_cuts.html">All Cuts</a></li>
 							<li><a href="gia.html">GIA Certified</a></li>
@@ -305,17 +305,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-		<script>
+		<!-- <script>
 
 			$(document).ready(function() {
-				if (window.innerWidth < 975) {
+				if ($(window).width() < 975) {
 				$('.testing').addClass('myul-small')
 				}
-				if (window.innerWidth >= 975) {
-				$('.testing').addClass('myul')
-				}
+				// if (window.innerWidth >= 975) {
+				// $('.testing').addClass('myul')
+				// }
+				else $('.testing').addClass('myul')
 			})
-		</script>
+		</script> -->
 
 	</body>
 </html>
