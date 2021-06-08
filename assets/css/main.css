@@ -3216,12 +3216,28 @@ input, select, textarea {
 		color: #eeeeee;
 	}
 
-	.main-logo {
-	background: lightgrey;
-    border: 1px solid black;
+	/* .main-logo {
+	background: #5a595b;
+    border: 2px solid white;
     border-radius: 10px;
-	width: 350px;
-	}
+    width: 350px;
+	} */
+
+	@media only screen and (max-width:440px) {
+    .main-logo {
+	background: #5a595b;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 350px;
+    }
+}
+@media only screen and (min-width:441px) {
+    .main-logo {
+	background: #5a595b;
+    border: 2px solid white;
+    border-radius: 10px;
+    }
+}
 
 	.myul {
 	padding-left: 1rem;
