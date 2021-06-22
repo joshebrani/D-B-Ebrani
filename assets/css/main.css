@@ -3235,7 +3235,9 @@ input, select, textarea {
 }
 @media only screen and (min-width:441px) {
     .main-logo {
-	background: #5a595b;
+	background: linear-gradient(
+270deg
+,rgb(101 101 101 / 72%),rgb(214 213 213 / 78%));
     border: 2px solid white;
     border-radius: 10px;
     }
